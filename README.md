@@ -4,4 +4,6 @@
 
 2. stremtrial.py is run on VS where sample open API keys, aws keys, and weaviate secret keys are given.
 
+3. All api keys should be your own API (was, openai api)
+
 
