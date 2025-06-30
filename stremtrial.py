@@ -7,13 +7,14 @@ from moviepy.editor import VideoFileClip, concatenate_videoclips
 from requests.exceptions import ConnectionError
 from langchain_community.llms import OpenAI
 
+#all keys should be your own
 # AWS Configuration
-aws_access_key_id = 'AKIAVRUVT65FCHIRF2H3'
-aws_secret_access_key = 'tZ5fVsWiz+L5STqvafn3hKhCB877L1CGlPEM9LZ5'
+aws_access_key_id = ''
+aws_secret_access_key = ''
 bucket_name = 'mybucketcapstonemel'
 
 # OpenAI API key configuration
-openai_api_key = "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"
+openai_api_key = ""
 openai.api_key = openai_api_key
 
 # Weaviate client setup
